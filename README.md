@@ -9,6 +9,7 @@ A quick and dirty batch file that lets you use Midi3Mus quickly.
 # Example:
 (! means folder, == is the heirarchy)
 
+
 ! folderOfMidis
 
 == batchCreate.bat
@@ -21,7 +22,10 @@ A quick and dirty batch file that lets you use Midi3Mus quickly.
 
 === anotherMidi.midi
 
+
+
 Running batchCreate.bat should result in the following structure:
+
 
 ! folderOfMidis
 
@@ -40,5 +44,7 @@ Running batchCreate.bat should result in the following structure:
 === myMidi.mus
 
 === anotherMidi.mus
+
+
 
 And you can use the mus in Doom wads by naming them accordingly and dropping them in [SLADE3](https://github.com/sirjuddington/SLADE).
