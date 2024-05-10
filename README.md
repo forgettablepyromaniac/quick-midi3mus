@@ -7,24 +7,24 @@ A quick and dirty batch file that lets you use Midi3Mus quickly.
 - Run
 
 # Example:
-(> means folder, == is the heirarchy)
+(! means folder, == is the heirarchy)
 
-> folderOfMidis
+! folderOfMidis
 == batchCreate.bat
 == midi3mus.exe
-=> midi
+=! midi
 === myMidi.mid
 === anotherMidi.midi
 
 Running batchCreate.bat should result in the following structure:
 
-> folderOfMidis
+! folderOfMidis
 == batchCreate.bat
 == midi3mus.exe
-=> midi
+=! midi
 === myMidi.mid
 === anotherMidi.midi
-=> mus
+=! mus
 === myMidi.mus
 === anotherMidi.mus
 
